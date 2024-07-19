@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a458b;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+/* Main container styling */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #4d86c7;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #530a98;
+}
+
+#quiz-container {
+    text-align: center;
+}
+
+#quiz-form {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Quiz question styling */
+#question {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #530a98;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+button[type="submit"],
+button {
+    padding: 10px 20px;
+    background-color: #246180;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+button:hover {
+    background-color: #270e47;
+}
+
+#result-message {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
